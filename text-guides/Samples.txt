@@ -1,0 +1,90 @@
+Text Resources:
+----
+
+Latest Offers
+TEES
+  Graphic Tees
+  Pocket Tees
+  Crew Neck
+  V-Neck
+  Slim Fit
+  Oversized
+  Polo Shirt
+  Long Sleeves
+MUGS
+  Coffee Mug
+  Tea Mug
+ACCESSORIES
+  Keychain
+  Towel
+ABOUT
+CONTACTS
+---
+
+Account Settings
+-
+EMAIL:
+ADD RECOVERY EMAIL
+PHONE NUMBER:
+OLD PASSWORD:
+NEW PASSWORD:
+CONFIRM NEW PASSWORD:
+CANCEL
+SAVE
+
+---
+
+Contacts Page
+-
+OUR SOCIALS
+www.facebook.com
+www.x.com
+www.instagram.com
+www.pinterest.com
+
+CONTACT US THROUGH
+SMART:
+GLOBE:
+HOTLINE:
+---
+
+My Profile
+-
+Manage your account
+Name: Juan de la Cruz
+Email: juandelacruz@gmail.com
+Phone Number: 
+Gender: Male Female Other
+Date of Birth: Day Month Year
+SAVE
+---
+
+MY ORDERS
+-
+PRODUCT
+PAYMENT
+STATUS
+TRACK ORDER
+CANCEL ORDER
+Cash on Delivery
+GCASH
+IN TRANSIT
+PREPARING
+---
+
+Cart
+-
+LONG SLEEVE RED
+₱
+REMOVE
+CHECKOUT : 1 2 3 4 5 6 7 8 9 PHP
+---
+
+ABOUT GIFTEES
+(Placeholder)
+  Giftees is a creative and vibrant customized T-shirt gift shop that was founded with the vision of turning ordinary moments into extraordinary memories. Whether you’re celebrating a birthday, anniversary, holiday, or just want to express your unique style, Giftees has the perfect T-shirt suited and edited by you, for you!
+MEET THE TEAM
+  Aeon Vicentuan
+  Vincent Centeno
+  Zadkiel Ondevilla
+

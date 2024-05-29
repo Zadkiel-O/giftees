@@ -1,0 +1,63 @@
+Brand Color:
+  Jacarta #352E5D - https://www.color-name.com/hex/352E5D
+  Vermilion (Plochere) #CE3624 - https://www.color-name.com/hex/CE3624
+  Orange-Yellow (Crayola) #FAD565 - https://www.color-name.com/hex/FAD565
+  Middle Purple #E67DB2 - https://www.color-name.com/hex/E67DB2
+  Non-Photo Blue #96DCE3 - https://www.color-name.com/hex/96dce3
+
+Generic Colors:
+  White
+  Black
+  Red
+  Blue
+  Green
+  Yellow
+  Orange
+  Purple
+  Pink
+  Brown
+  Black
+  White
+  Gray
+  Cyan
+  Magenta
+  Maroon
+  Navy
+  Olive
+  Teal
+  Lime
+  Indigo
+  Violet
+  Gold
+  Silver
+  Bronze
+  Coral
+  Aqua
+  Beige
+  Turquoise
+  Lavender
+  Salmon
+  Mint
+  Peach
+  Plum
+  Chocolate
+  Crimson
+  Fuchsia
+  Amber
+  Emerald
+  Ivory
+  Khaki
+  Lilac
+  Mustard
+  Rust
+  Saffron
+  Scarlet
+  Slate
+  Tan
+  Tiffany Blue
+  Periwinkle
+  Azure
+  Charcoal
+
+  
+  
