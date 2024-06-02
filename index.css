@@ -1,0 +1,62 @@
+/* Body */
+
+.body {
+    margin: 0px;
+    padding: 150px 250px 150px 0px;
+}
+
+h2 {
+    margin: 0px;
+}
+
+.learn-button,
+.shop-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #fdb4b4;
+    border-radius: 5px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.learn-button:hover,
+.shop-button:hover {
+    background-color: #f5c2c2;
+    filter: drop-shadow(0 0 10px rgb(210, 91, 91, 0.7));
+}
+
+.learn-button a,
+.shop-button a {
+    color:black;
+    text-decoration: none;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.section img{
+    object-fit: contain;
+}
+
+.section:nth-child(odd) {
+    flex-direction: row-reverse;
+    /* Reverse the order of flex items for odd sections */
+}
+
+img.section-picture {
+    height: 150px;
+    width: 150px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#section1{
+    text-align: left;
+}
+
+#section2 {
+    text-align: right;
+}
