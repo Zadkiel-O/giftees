@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title> Keychains </title>
+
+  <link rel="stylesheet" href="/products-body.css">
+  <link rel="stylesheet" href="/category-bar.css">
+  <link rel="stylesheet" href="/core.css">
+  <link rel="icon" href="/assets/favicon.ico">
+  <script type="text/javascript" src="/script.js"></script>
+
+</head>
+
+<body>
+  <!--Header-->
+  <header>
+    <div class="header-left">
+      <a class="logo" href="/index.html"><img class="icon-main" src="/assets/gift.png" alt="gifteesIcon"></a>
+      <a class="brand" href="/index.html"><h1> Giftees</h1> <a href="/index.html"> <h1>!</h1> </a></a>
+      <div class="search">
+        <input class="search-bar" type="text" placeholder="Search...">
+        <button class="search-button" title="Search" type="submit"><img class="sub-icon search-icon" src="/assets/search.png">
+        </button>
+      </div>
+    </div>
+    <div class="header-right">
+      <button class="buttons" title="cart" id="cart" onclick="openNav()"><img class="sub-icon icon-right"
+          src="/assets/cart.png"></button>
+      <a href="/pages/profile.html"<button class="buttons" title="Profile" id="profile"><img
+        class="sub-icon icon-right" src="/assets/avatar.png"></button></a>
+    </div>
+  </header>
+
+  <!--Navigation Bar-->
+  <div class="navbar">
+    <a href="/index.html" id="selected"> Latest Offers </a>
+
+    <div class="dropdown">
+      <button class="dropbutton"> Tees </button>
+      <div id="dropdown1" class="dropdown-content">
+        <a href="/pages/tees/pocket-tees.html"> Pocket Tees </a>
+        <a href="/pages/tees/crew-neck.html"> Crew Neck </a>
+        <a href="/pages/tees/v-neck.html"> V-Neck </a>
+        <a href="/pages/tees/dri-fit.html"> Dri-Fit </a>
+        <a href="/pages/tees/oversized.html"> Oversized </a>
+        <a href="/pages/tees/polo-shirt.html"> Polo Shirt </a>
+        <a href="/pages/tees/long-sleeves.html"> Long Sleeves </a>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropbutton"> Mugs </button>
+      <div id="dropdown2" class="dropdown-content">
+        <a href="/pages/mugs/coffee-mug.html"> Coffee Mug </a>
+        <a href="/pages/mugs/tea-mug.html"> Tea Mug </a>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropbutton"> Accessories </button>
+      <div id="dropdown3" class="dropdown-content">
+        <a href="/pages/accessories/keychain.html"> Keychain </a>
+        <a href="/pages/accessories/towel.html"> Towel </a>
+      </div>
+    </div>
+
+    <a href="/pages/about.html"> About </a>
+    <a href="/pages/contacts.html"> Contacts </a>
+  </div>
+
+  <!--Breadcrumbs-->
+  <div class="breadcrumbs">
+    <a href="/index.html">Home</a> &raquo;
+    <p>Accessories &raquo;</p>
+    <a href="/pages/accessories/keychain.html">Keychains</a>
+  </div>
+
+  <!--Cart-->
+  <div id="cart-sidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <h2>Cart</h2>
+    <p>Your cart is empty.</p>
+  </div>
+
+  <div class="body-container">
+  <!--Category Bar-->
+  <div class="category-bar">
+    <h2>Filters</h2>
+    <button class="accordion">Shape</button>
+    <div id="colorFilters" class="panel">
+      <button class="colorFilterButton active" onclick="filterSelection('circle')"><img class="box" src="/assets/checked.png"> Circle</button>
+      <button class="colorFilterButton active" onclick="filterSelection('square')"><img class="box" src="/assets/checked.png"> Square</button>
+      <button class="colorFilterButton active" onclick="filterSelection('rectangle')"><img class="box" src="/assets/checked.png"> Rectangle</button>
+      <button class="colorFilterButton active" onclick="filterSelection('shirt')"><img class="box" src="/assets/checked.png"> Shirt</button>
+    </div>
+
+    <h2>Categories</h2>
+    <button class="accordion">Tees</button>
+    <div class="panel">
+      <a href="/pages/tees/pocket-tees.html">Pocket Tees</a>
+      <a href="/pages/tees/crew-neck.html">Crew Neck</a>
+      <a href="/pages/tees/v-neck.html">V-Neck</a>
+      <a href="/pages/tees/dri-fit.html">Dri-Fit</a>
+      <a href="/pages/tees/oversized.html">Oversized</a>
+      <a href="/pages/tees/polo-shirt.html">Polo Shirt</a>
+      <a href="/pages/tees/long-sleeves.html">Long Sleeves</a>
+    </div>
+
+    <button class="accordion">Mugs</button>
+    <div class="panel">
+      <a href="/pages/mugs/coffee-mug.html">Coffee Mug</a>
+      <a href="/pages/mugs/tea-mug.html">Tea Mug</a>
+    </div>
+
+    <button class="accordion">Accessories</button>
+    <div class="panel">
+      <a href="/pages/accessories/keychain.html">Keychain</a>
+      <a href="/pages/accessories/towel.html">Towel</a>
+    </div>
+  </div>
+  
+  <!--Body-->
+  <div class="body">
+    <!-- Main Content Section -->
+    <h2>Keychains</h2>
+    <p>Keychains are a great way to add aesthetic flair to our tees!</p>
+    <p>You can choose from our selection of Keychains!</p>
+
+    <!-- Card Container -->
+    <div class="card-container clearfix">
+      <!-- Card 1 -->
+      <div class="card-item circle">
+        <div class="card">
+          <img src="/assets/accessories/keychain/circle-keychain.png">
+          <h3>Circle Keychain</h3>
+          <p>A circle keychain that gives a limitless vibe.</p>
+          <div>
+            <ul>
+            <li><button class="button">Continue</button></li>
+            <li><button class="button">Add to Cart</button></li>
+          </ui>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="card-item square">
+        <div class="card">
+          <img src="/assets/accessories/keychain/square-keychain.png">
+          <h3>Square Keychain</h3>
+          <p>A square keychain that gives a sturdiness vibe.</p>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="card-item rectangle">
+        <div class="card">
+          <img src="/assets/accessories/keychain/rectangle-keychain.png">
+          <h3>Rectangle Keychain</h3>
+          <p>A rectangle keychain that gives a stability vibe.</p>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="card-item shirt">
+        <div class="card">
+          <img src="/assets/accessories/keychain/shirt-keychain.png">
+          <h3>Shirt Keychain</h3>
+          <p>A shirt keychain that gives a confident vibe.</p>
+        </div>
+      </div>
+
+      </div>
+    </div>
+  </div>
+    
+
+  <!--Footer-->
+  <footer>
+    <div class="footer">
+      <div class="header-left">
+      <a class="brand" href="/index.html"><h1> Giftees</h1><a href="/index.html"> <h1>!</h1> </a></a>
+      </div>
+      <p>Contact us!</p>
+      <div class="footer-icon">
+        <a href="https://www.facebook.com" target="_blank"><img src="/assets/socmed/facebook.png"></a>
+        <a href="https://www.x.com" target="_blank"><img src="/assets/socmed/twitter.png"></a>
+        <a href="https://www.instagram.com" target="_blank"><img src="/assets/socmed/instagram.png"></a>
+        <a href="https://www.pinterest.com" target="_blank"><img src="/assets/socmed/pinterest.png"></a>
+      </div>
+      <p>&copy; 2024 Giftees. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="/product-script.js"></script>
+  
+</body>
+
+</html>
