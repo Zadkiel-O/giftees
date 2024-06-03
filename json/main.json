@@ -1,0 +1,514 @@
+[
+    {
+        "id": 1,
+        "name": "Black Pocket",
+        "description": "A black pocket tee that gives a mature vibe.",
+        "rating": 4.7,
+        "price": "PHP 120.00",
+        "image": "/assets/tees/pocket-tees/black-pocket.png"
+    },
+    {
+        "id": 2,
+        "name": "White Pocket",
+        "description": "A white pocket tee that gives an elegant vibe.",
+        "rating": 4.9,
+        "price": "PHP 120.00",
+        "image": "/assets/tees/pocket-tees/white-pocket.png"
+    },
+    {
+        "id": 3,
+        "name": "Gray Pocket",
+        "description": "A gray pocket tee that gives a neutral vibe.",
+        "rating": 4.5,
+        "price": "PHP 160.00",
+        "image": "/assets/tees/pocket-tees/gray-pocket.png"
+    },
+    {
+        "id": 4,
+        "name": "Red Pocket",
+        "description": "A red pocket tee that gives a passionate vibe.",
+        "rating": 4.3,
+        "price": "PHP 160.00",
+        "image": "/assets/tees/pocket-tees/red-pocket.png"
+    },
+    {
+        "id": 5,
+        "name": "Green Pocket",
+        "description": "A green pocket tee that gives a healing vibe.",
+        "rating": 3.9,
+        "price": "PHP 160.00",
+        "image": "/assets/tees/pocket-tees/green-pocket.png"
+    },
+    {
+        "id": 6,
+        "name": "Blue Pocket",
+        "description": "A blue pocket tee that gives a relaxing vibe.",
+        "rating": 4.0,
+        "price": "PHP 160.00",
+        "image": "/assets/tees/pocket-tees/blue-pocket.png"
+    },
+    {
+        "id": 7,
+        "name": "Black Crew",
+        "description": "A black crew neck tee that gives a mature vibe.",
+        "rating": 4.9,
+        "price": "PHP 140.00",
+        "image": "/assets/tees/crew-neck/black-crew.png"
+    },
+    {
+        "id": 8,
+        "name": "White Crew",
+        "description": "A white crew neck tee that gives an elegant vibe.",
+        "rating": 4.8,
+        "price": "PHP 140.00",
+        "image": "/assets/tees/crew-neck/white-crew.png"
+    },
+    {
+        "id": 9,
+        "name": "Khaki Crew",
+        "description": "A gray crew neck tee that gives a trustworthy vibe.",
+        "rating": 4.4,
+        "price": "PHP 140.00",
+        "image": "/assets/tees/crew-neck/khaki-crew.png"
+    },
+    {
+        "id": 10,
+        "name": "Brown Crew",
+        "description": "A red crew neck tee that gives a dependable vibe.",
+        "rating": 4.1,
+        "price": "PHP 200.00",
+        "image": "/assets/tees/crew-neck/brown-crew.png"
+    },
+    {
+        "id": 11,
+        "name": "Pink Crew",
+        "description": "A green crew neck tee that gives a kind vibe.",
+        "rating": 4.8,
+        "price": "PHP 200.00",
+        "image": "/assets/tees/crew-neck/pink-crew.png"
+    },
+    {
+        "id": 12,
+        "name": "Blue Crew",
+        "description": "A blue crew neck tee that gives a relaxing vibe.",
+        "rating": 4.6,
+        "price": "PHP 200.00",
+        "image": "/assets/tees/crew-neck/blue-crew.png"
+    },
+    {
+        "id": 13,
+        "name": "Black V",
+        "description": "A black v-neck tee that gives a mature vibe.",
+        "rating": 4.9,
+        "price": "PHP 140.00",
+        "image": "/assets/tees/v-neck/black-neck.png"
+    },
+    {
+        "id": 14,
+        "name": "White V",
+        "description": "A white v-neck tee that gives an elegant vibe.",
+        "rating": 4.7,
+        "price": "PHP 140.00",
+        "image": "/assets/tees/v-neck/white-neck.png"
+    },
+    {
+        "id": 15,
+        "name": "Gray V",
+        "description": "A gray v-neck tee that gives a neutral vibe.",
+        "rating": 4.6,
+        "price": "PHP 200.00",
+        "image": "/assets/tees/v-neck/gray-neck.png"
+    },
+    {
+        "id": 16,
+        "name": "Green V",
+        "description": "A green v-neck tee that gives a healing vibe.",
+        "rating": 4.3,
+        "price": "PHP 200.00",
+        "image": "/assets/tees/v-neck/green-neck.png"
+    },
+    {
+        "id": 17,
+        "name": "Pink V",
+        "description": "A pink v-neck tee that gives a kind vibe.",
+        "rating": 4.8,
+        "price": "PHP 200.00",
+        "image": "/assets/tees/v-neck/pink-neck.png"
+    },
+    {
+        "id": 18,
+        "name": "Blue V",
+        "description": "A blue v-neck tee that gives a relaxing vibe.",
+        "rating": 4.4,
+        "price": "PHP 200.00",
+        "image": "/assets/tees/v-neck/blue-neck.png"
+    },
+    {
+        "id": 19,
+        "name": "Black Dri",
+        "description": "A black dri-fit tee that gives a mature vibe.",
+        "rating": 4.9,
+        "price": "PHP 180.00",
+        "image": "/assets/tees/dri-fit/black-fit.png"
+    },
+    {
+        "id": 20,
+        "name": "White Dri",
+        "description": "A white dri-fit tee that gives an elegant vibe.",
+        "rating": 4.9,
+        "price": "PHP 180.00",
+        "image": "/assets/tees/dri-fit/white-fit.png"
+    },
+    {
+        "id": 21,
+        "name": "Gray Dri",
+        "description": "A gray dri-fit tee that gives a neutral vibe.",
+        "rating": 4.7,
+        "price": "PHP 240.00",
+        "image": "/assets/tees/dri-fit/gray-fit.png"
+    },
+    {
+        "id": 22,
+        "name": "Red Dri",
+        "description": "A red dri-fit tee that gives a passionate vibe.",
+        "rating": 4.6,
+        "price": "PHP 240.00",
+        "image": "/assets/tees/dri-fit/red-fit.png"
+    },
+    {
+        "id": 23,
+        "name": "Green Dri",
+        "description": "A green dri-fit tee that gives a healing vibe.",
+        "rating": 4.3,
+        "price": "PHP 240.00",
+        "image": "/assets/tees/dri-fit/green-fit.png"
+    },
+    {
+        "id": 24,
+        "name": "Blue Dri",
+        "description": "A blue dri-fit tee that gives a relaxing vibe.",
+        "rating": 4.1,
+        "price": "PHP 240.00",
+        "image": "/assets/tees/dri-fit/blue-fit.png"
+    },
+    {
+        "id": 25,
+        "name": "Black Oversized",
+        "description": "A black oversized tee that gives a mature vibe.",
+        "rating": 4.7,
+        "price": "PHP 160.00",
+        "image": "/assets/tees/oversized/black-oversized.png"
+    },
+    {
+        "id": 26,
+        "name": "White Oversized",
+        "description": "A white oversized tee that gives an elegant vibe.",
+        "rating": 4.9,
+        "price": "PHP 160.00",
+        "image": "/assets/tees/oversized/white-oversized.png"
+    },
+    {
+        "id": 27,
+        "name": "Gray Oversized",
+        "description": "A gray oversized tee that gives a neutral vibe.",
+        "rating": 4.8,
+        "price": "PHP 220.00",
+        "image": "/assets/tees/oversized/gray-oversized.png"
+    },
+    {
+        "id": 28,
+        "name": "Peach Oversized",
+        "description": "A peach oversized tee that gives a calming vibe.",
+        "rating": 4.6,
+        "price": "PHP 220.00",
+        "image": "/assets/tees/oversized/peach-oversized.png"
+    },
+    {
+        "id": 29,
+        "name": "Green Oversized",
+        "description": "A green oversized tee that gives a healing vibe.",
+        "rating": 3.5,
+        "price": "PHP 220.00",
+        "image": "/assets/tees/oversized/green-oversized.png"
+    },
+    {
+        "id": 30,
+        "name": "Blue Oversized",
+        "description": "A blue oversized tee that gives a relaxing vibe.",
+        "rating": 3.8,
+        "price": "PHP 220.00",
+        "image": "/assets/tees/oversized/blue-oversized.png"
+    },
+    {
+        "id": 31,
+        "name": "Black Polo",
+        "description": "A black polo shirt tee that gives a mature vibe.",
+        "rating": 4.9,
+        "price": "PHP 130.00",
+        "image": "/assets/tees/polo-shirt/black-polo.png"
+    },
+    {
+        "id": 32,
+        "name": "White Polo",
+        "description": "A white polo shirt tee that gives an elegant vibe.",
+        "rating": 4.8,
+        "price": "PHP 130.00",
+        "image": "/assets/tees/polo-shirt/white-polo.png"
+    },
+    {
+        "id": 33,
+        "name": "Yellow Polo",
+        "description": "A yellow polo shirt tee that gives a neutral vibe.",
+        "rating": 4.3,
+        "price": "PHP 190.00",
+        "image": "/assets/tees/polo-shirt/yellow-polo.png"
+    },
+    {
+        "id": 34,
+        "name": "Red Polo",
+        "description": "A red polo shirt tee that gives a passionate vibe.",
+        "rating": 4.6,
+        "price": "PHP 190.00",
+        "image": "/assets/tees/pocket-tees/red-pocket.png"
+    },
+    {
+        "id": 35,
+        "name": "Pink Polo",
+        "description": "A pink polo shirt tee that gives a kind vibe.",
+        "rating": 4.7,
+        "price": "PHP 190.00",
+        "image": "/assets/tees/polo-shirt/pink-polo.png"
+    },
+    {
+        "id": 36,
+        "name": "Blue Polo",
+        "description": "A blue pocket tee that gives a relaxing vibe.",
+        "rating": 3.9,
+        "price": "PHP 190.00",
+        "image": "/assets/tees/pocket-tees/blue-pocket.png"
+    },
+    {
+        "id": 37,
+        "name": "Black Sleeve",
+        "description": "A black long sleeve tee that gives a mature vibe.",
+        "rating": 4.9,
+        "price": "PHP 130.00",
+        "image": "/assets/tees/long-sleeves/black-sleeve.png"
+    },
+    {
+        "id": 38,
+        "name": "White Sleeve",
+        "description": "A white long sleeve tee that gives an elegant vibe.",
+        "rating": 4.8,
+        "price": "PHP 130.00",
+        "image": "/assets/tees/long-sleeves/white-sleeve.png"
+    },
+    {
+        "id": 39,
+        "name": "Gray Sleeve",
+        "description": "A gray long sleeve tee that gives a neutral vibe.",
+        "rating": 4.5,
+        "price": "PHP 170.00",
+        "image": "/assets/tees/long-sleeves/gray-sleeve.png"
+    },
+    {
+        "id": 40,
+        "name": "Red Sleeve",
+        "description": "A red long sleeve tee that gives a passionate vibe.",
+        "rating": 4.7,
+        "price": "PHP 170.00",
+        "image": "/assets/tees/long-sleeves/red-sleeve.png"
+    },
+    {
+        "id": 41,
+        "name": "Green Sleeve",
+        "description": "A green long sleeve tee that gives a healing vibe.",
+        "rating": 4.4,
+        "price": "PHP 170.00",
+        "image": "/assets/tees/long-sleeves/green-sleeve.png"
+    },
+    {
+        "id": 42,
+        "name": "Blue Sleeve",
+        "description": "A blue long sleeve tee that gives a relaxing vibe.",
+        "rating": 4.3,
+        "price": "PHP 170.00",
+        "image": "/assets/tees/long-sleeves/blue-sleeve.png"
+    },
+    {
+        "id": 43,
+        "name": "Gray C Mug",
+        "description": "A gray coffee mug that gives a neutral vibe.",
+        "rating": 4.8,
+        "price": "PHP 200.00",
+        "image": "/assets/mugs/coffee-mug/gray-mug.png"
+    },
+    {
+        "id": 44,
+        "name": "White C Mug",
+        "description": "A white coffee mug that gives an elegant vibe.",
+        "rating": 4.9,
+        "price": "PHP 150.00",
+        "image": "/assets/mugs/coffee-mug/white-mug.png"
+    },
+    {
+        "id": 45,
+        "name": "Yellow C Mug",
+        "description": "A yellow coffee mug that gives an optimistic vibe.",
+        "rating": 4.4,
+        "price": "PHP 200.00",
+        "image": "/assets/mugs/coffee-mug/yellow-mug.png"
+    },
+    {
+        "id": 46,
+        "name": "Red C Mug",
+        "description": "A red coffee mug that gives a passionate vibe.",
+        "rating": 4.6,
+        "price": "PHP 200.00",
+        "image": "/assets/mugs/coffee-mug/red-mug.png"
+    },
+    {
+        "id": 47,
+        "name": "Pink C Mug",
+        "description": "A pink coffee mug that gives a kind vibe.",
+        "rating": 4.7,
+        "price": "PHP 200.00",
+        "image": "/assets/mugs/coffee-mug/pink-mug.png"
+    },
+    {
+        "id": 48,
+        "name": "Blue C Mug",
+        "description": "A blue coffee mug that gives a relaxing vibe.",
+        "rating": 4.2,
+        "price": "PHP 200.00",
+        "image": "/assets/mugs/coffee-mug/blue-mug.png"
+    },
+    {
+        "id": 49,
+        "name": "Black T Mug",
+        "description": "A black tea mug that gives a mature vibe.",
+        "rating": 4.7,
+        "price": "PHP 250.00",
+        "image": "/assets/mugs/tea-mug/black-tea.png"
+    },
+    {
+        "id": 50,
+        "name": "White T Mug",
+        "description": "A white tea mug that gives an elegant vibe.",
+        "rating": 4.9,
+        "price": "PHP 250.00",
+        "image": "/assets/mugs/tea-mug/white-tea.png"
+    },
+    {
+        "id": 51,
+        "name": "Gray T Mug",
+        "description": "A gray tea mug that gives a neutral vibe.",
+        "rating": 4.5,
+        "price": "PHP 300.00",
+        "image": "/assets/mugs/tea-mug/gray-tea.png"
+    },
+    {
+        "id": 52,
+        "name": "Red T Mug",
+        "description": "A red tea mug that gives a passionate vibe.",
+        "rating": 4.4,
+        "price": "PHP 300.00",
+        "image": "/assets/mugs/tea-mug/red-tea.png"
+    },
+    {
+        "id": 53,
+        "name": "Yellow T Mug",
+        "description": "A yellow tea mug that gives an optimistic vibe.",
+        "rating": 4.3,
+        "price": "PHP 300.00",
+        "image": "/assets/mugs/tea-mug/yellow-tea.png"
+    },
+    {
+        "id": 54,
+        "name": "Blue T Mug",
+        "description": "A blue tea mug that gives a relaxing vibe.",
+        "rating": 4.1,
+        "price": "PHP 300.00",
+        "image": "/assets/mugs/tea-mug/blue-tea.png"
+    },
+    {
+        "id": 55,
+        "name": "Circle Keychain",
+        "description": "A circle keychain that gives a limitless vibe.",
+        "rating": 4.7,
+        "price": "PHP 120.00",
+        "image": "/assets/accessories/keychain/circle-keychain.png"
+    },
+    {
+        "id": 56,
+        "name": "Square Keychain",
+        "description": "A square keychain that gives a sturdiness vibe.",
+        "rating": 4.8,
+        "price": "PHP 100.00",
+        "image": "/assets/accessories/keychain/square-keychain.png"
+    },
+    {
+        "id": 57,
+        "name": "Rectangle Keychain",
+        "description": "A rectangle keychain that gives a stability vibe.",
+        "rating": 4.5,
+        "price": "PHP 110.00",
+        "image": "/assets/accessories/keychain/rectangle-keychain.png"
+    },
+    {
+        "id": 58,
+        "name": "Shirt Keychain",
+        "description": "A shirt keychain that gives a confident vibe.",
+        "rating": 4.8,
+        "price": "PHP 150.00",
+        "image": "/assets/accessories/keychain/shirt-keychain.png"
+    },
+    {
+        "id": 59,
+        "name": "Black Towel",
+        "description": "A black towel that gives a mature vibe.",
+        "rating": 4.9,
+        "price": "PHP 150.00",
+        "image": "/assets/accessories/towel/black-towel.png"
+    },
+    {
+        "id": 60,
+        "name": "Gray Towel",
+        "description": "A gray towel that gives a neutral vibe.",
+        "rating": 4.7,
+        "price": "PHP 200.00",
+        "image": "/assets/accessories/towel/gray-towel.png"
+    },
+    {
+        "id": 61,
+        "name": "Peach Towel",
+        "description": "A peach towel that gives a calming vibe.",
+        "rating": 4.9,
+        "price": "PHP 200.00",
+        "image": "/assets/accessories/towel/peach-towel.png"
+    },
+    {
+        "id": 62,
+        "name": "Brown Towel",
+        "description": "A brown towel that gives a dependable vibe.",
+        "rating": 4.1,
+        "price": "PHP 200.00",
+        "image": "/assets/accessories/towel/brown-towel.png"
+    },
+    {
+        "id": 63,
+        "name": "Orange Towel",
+        "description": "An orange towel that gives an easy-going vibe.",
+        "rating": 4.4,
+        "price": "PHP 200.00",
+        "image": "/assets/accessories/towel/orange-towel.png"
+    },
+    {
+        "id": 64,
+        "name": "Yellow Towel",
+        "description": "A yellow towel that gives an optimistic vibe.",
+        "rating": 4.5,
+        "price": "PHP 200.00",
+        "image": "/assets/accessories/towel/yellow-towel.png"
+    }
+]
