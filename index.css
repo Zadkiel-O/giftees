@@ -1,0 +1,88 @@
+/* Body */
+
+.body {
+    margin: 0px;
+    padding: 75px 250px 0px 0px; /*150px 250px 150px 0 before!!!*/
+}
+
+h2 {
+    margin: 0px;
+}
+
+hr {/* Horizontal Line */
+    border: 0; 
+    height: 2px; 
+    background-color: #000000; 
+    filter: drop-shadow(0 0 4px rgb(0, 0, 0, 0.7));
+    width: 90%; 
+    margin: auto; 
+}
+
+.learn-button,
+.shop-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #fdb4b4;
+    border-radius: 5px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.learn-button:hover,
+.shop-button:hover {
+    background-color: #f5c2c2;
+    filter: drop-shadow(0 0 10px rgb(210, 91, 91, 0.7));
+}
+
+.learn-button a,
+.shop-button a {
+    color:black;
+    text-decoration: none;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-top: 1px solid #878787;
+}
+
+.section img{
+    object-fit: contain;
+}
+
+.section:nth-child(odd) {
+    flex-direction: row-reverse;
+    /* Reverse the order of flex items for odd sections */
+}
+
+img.section-picture {
+    height: 150px;
+    width: 150px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+
+.main-body{
+    margin-left:300px;
+}
+
+#section1{
+    text-align: left;
+    padding-top: 10px;
+    margin-top: 100px;
+    margin-left: 250px;
+}
+
+#section2 {
+    text-align: right;
+    padding-top: 10px;
+    margin-right: 300px;
+}
+
+#section3{
+    padding-top: 10px;
+    margin-bottom: 100px;
+    margin-left: 300px;
+}

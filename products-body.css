@@ -1,0 +1,239 @@
+/* Style for body */
+.body-container {
+  display: flex;
+}
+
+.body {
+  margin-bottom: 80px;
+  padding: 0px 55px;
+  width: 100%;
+}
+
+.body-container .body h2 {
+  font-size: 30px;
+  margin: 0px;
+}
+
+/* Style for card container */
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* 3 columns */
+  grid-auto-rows: auto;
+  grid-gap: 35px;
+}
+
+/* Clear floated content within the card container*/
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.card-item {
+  border: 1px solid black;
+  border-radius: 7px;
+  transition: 0.3s;
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.card-item:hover {
+  scale: 105%;
+  cursor: pointer;
+}
+
+/* Individual card */
+.card {
+  position: relative;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.7);
+  transition: 0.3s;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  max-height: 200px;
+  object-fit: contain;
+  filter: drop-shadow(0 0 5px rgb(0, 0, 0, 0.4));
+  /* Drop shadow on card images*/
+}
+
+.price {
+  color: #CE3624;
+  font-weight: bold;
+}
+
+/* Card Links*/
+.card a {
+  color: black;
+  text-decoration: none;
+}
+
+.filterContainer {
+  display: flex;
+  align-items: center;
+}
+
+.view-product,
+.text-details .add-to-cart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 6px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.view-product:hover,
+.text-details .add-to-cart:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
+
+.text-details .add-to-cart {
+  margin-top: 20px;
+  font-size: 28px;
+  padding: 16px 0px;
+}
+
+.text-details .add-to-cart img {
+  width: 30px;
+  height: 30px;
+  margin: 0px 0px 0px 30px;
+}
+
+.text-details .add-to-cart:hover img {
+  filter: invert(97%) sepia(7%) saturate(286%) hue-rotate(178deg) brightness(116%) contrast(100%);
+}
+
+
+/* Breadcrumbs */
+.breadcrumbs {
+  margin-left: 35px;
+  padding: 5px 0px;
+}
+
+.breadcrumbs a {
+  color: black;
+}
+
+.breadcrumbs a:hover {
+  color: #CE3624;
+  text-decoration: underline;
+}
+
+.breadcrumbs p {
+  display: inline-block;
+}
+
+/* Modal */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: hidden;
+  /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  display: flex;
+  background-color: #fefefe;
+  margin: 10% auto;
+  border: 2px solid black;
+  border-radius: 10px;
+  /* 15% from the top and centered */
+  padding: 20px 0px 20px 20px;
+  width: 60%;
+  /* Could be more or less, depending on screen size */
+}
+
+.modal img {
+  margin-left: 40px;
+  width: 45%;
+  height: auto;
+  object-fit: contain;
+  filter: drop-shadow(0 0 5px rgb(0, 0, 0, 0.4));
+  /* Drop shadow on card images*/
+}
+
+.text-details {
+  width: 100%;
+  margin: 0px 40px 40px 80px;
+}
+
+.text-details h2 {
+  width: 100%;
+  display: block;
+  font-size: 34px;
+}
+
+.text-details p {
+  font-size: 20px;
+  display: block;
+}
+
+.text-details p.price {
+  font-size: 26px;
+  color: #CE3624;
+  font-weight: bold;
+}
+
+.size-select {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.size-select p {
+  margin: 30px;
+  font-size: 24px;
+}
+
+#size {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* The Close Button */
+.close {
+  display: flex;
+  color: #aaa;
+  justify-content: right;
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
