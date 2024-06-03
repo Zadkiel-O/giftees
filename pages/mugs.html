@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title> Mugs </title>
+
+  <link rel="stylesheet" href="/products-body.css">
+  <link rel="stylesheet" href="/category-bar.css">
+  <link rel="stylesheet" href="/core.css">
+  <link rel="icon" href="/assets/favicon.ico">
+  <script type="text/javascript" src="/script.js"></script>
+
+</head>
+
+<body>
+  <!--Header-->
+  <header>
+    <div class="header-left">
+      <a class="logo" href="/index.html"><img class="icon-main" src="/assets/gift.png" alt="gifteesIcon"></a>
+      <a class="brand" href="/index.html"><h1> Giftees</h1> <a href="/index.html"> <h1>!</h1> </a></a>
+      <div class="search">
+        <input class="search-bar" type="text" placeholder="Search...">
+        <button class="search-button" title="Search" type="submit"><img class="sub-icon search-icon" src="/assets/search.png">
+        </button>
+      </div>
+    </div>
+    <div class="header-right">
+      <button class="buttons" title="cart" id="cart" onclick="openNav()"><img class="sub-icon icon-right"
+          src="/assets/cart.png"></button>
+      <a href="/pages/profile.html"<button class="buttons" title="Profile" id="profile"><img
+        class="sub-icon icon-right" src="/assets/avatar.png"></button></a>
+    </div>
+  </header>
+
+  <!--Navigation Bar-->
+  <div class="navbar">
+    <a href="/index.html" id="selected"> Latest Offers </a>
+
+    <div class="dropdown">
+      <button class="dropbutton"> Tees </button>
+      <div id="dropdown1" class="dropdown-content">
+        <a href="/pages/tees/pocket-tees.html"> Pocket Tees </a>
+        <a href="/pages/tees/crew-neck.html"> Crew Neck </a>
+        <a href="/pages/tees/v-neck.html"> V-Neck </a>
+        <a href="/pages/tees/dri-fit.html"> Dri-Fit </a>
+        <a href="/pages/tees/oversized.html"> Oversized </a>
+        <a href="/pages/tees/polo-shirt.html"> Polo Shirt </a>
+        <a href="/pages/tees/long-sleeves.html"> Long Sleeves </a>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropbutton"> Mugs </button>
+      <div id="dropdown2" class="dropdown-content">
+        <a href="/pages/mugs/coffee-mug.html"> Coffee Mug </a>
+        <a href="/pages/mugs/tea-mug.html"> Tea Mug </a>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropbutton"> Accessories </button>
+      <div id="dropdown3" class="dropdown-content">
+        <a href="/pages/accessories/keychain.html"> Keychain </a>
+        <a href="/pages/accessories/towel.html"> Towel </a>
+      </div>
+    </div>
+
+    <a href="/pages/about.html"> About </a>
+    <a href="/pages/contacts.html"> Contacts </a>
+  </div>
+
+  <!--Breadcrumbs-->
+  <div class="breadcrumbs"><br>
+    <a href="/index.html">Home</a> &raquo;
+    <a href="/mugs.html">Mugs</a>
+  </div>
+
+  <!--Cart-->
+  <div id="cart-sidebar" class="sidebar">
+    <div class="cart-heading">
+      <h2>Cart</h2>
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><p>&times;</p></a>
+    </div>
+    <div class="cart-body">
+      <div id="product-cart" class="cart-content"></div>
+    </div>
+    <button class="checkout" onclick="checkout()">Checkout</button>
+  </div>
+
+  <!--Body-->
+  <div class="body"><br>
+    <!-- Main Content Section -->
+    <h2>Mugs</h2>
+    <p>Mugs are excellent devices to drink serve and drink from.</p>
+    <p>You can choose from our category of Mugs!</p>
+
+    <!-- Card Container -->
+    <div class="card-container clearfix">
+      <!-- Card 1 -->
+      <div class="card-item">
+        <a href="/pages/mugs/coffee-mug.html">
+        <div class="card">
+          <img src="/assets/mugs/coffee-mug/white-mug.png">
+          <h3>Coffee Mug</h3>
+          <p>Coffee mugs are a great way to serve hot liquids, especially coffee.</p>
+        </a></div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="card-item">
+        <a href="/pages/mugs/tea-mug.html">
+        <div class="card">
+            <img src="/assets/mugs/tea-mug/white-tea.png">
+          <h3>Tea Mug</h3>
+          <p>Tea Mugs with a saucer are a great way to serve hot liquids, specifically tea.</p>
+        </a></div>
+      </div>
+
+      </div>
+    </div>
+  </div>
+    
+  <!--Footer-->
+  <footer>
+    <div class="footer">
+      <div class="header-left">
+      <a class="brand" href="/index.html"><h1> Giftees</h1><a href="/index.html"> <h1>!</h1> </a></a>
+      </div>
+      <p>Contact us!</p>
+      <div class="footer-icon">
+        <a href="https://www.facebook.com" target="_blank"><img src="/assets/socmed/facebook.png"></a>
+        <a href="https://www.x.com" target="_blank"><img src="/assets/socmed/twitter.png"></a>
+        <a href="https://www.instagram.com" target="_blank"><img src="/assets/socmed/instagram.png"></a>
+        <a href="https://www.pinterest.com" target="_blank"><img src="/assets/socmed/pinterest.png"></a>
+      </div>
+      <p>&copy; 2024 Giftees. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="/product-script.js"></script>
+  
+</body>
+
+</html>

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title> Dri-Fit </title>
+
+  <link rel="stylesheet" href="/products-body.css">
+  <link rel="stylesheet" href="/category-bar.css">
+  <link rel="stylesheet" href="/core.css">
+  <link rel="icon" href="/assets/favicon.ico">
+  <script type="text/javascript" src="/script.js"></script>
+
+</head>
+
+<body>
+  <!--Header-->
+  <header>
+    <div class="header-left">
+      <a class="logo" href="/index.html"><img class="icon-main" src="/assets/gift.png" alt="gifteesIcon"></a>
+      <a class="brand" href="/index.html"><h1> Giftees</h1> <a href="/index.html"> <h1>!</h1> </a></a>
+      <div class="search">
+        <input class="search-bar" type="text" placeholder="Search...">
+        <button class="search-button" title="Search" type="submit"><img class="sub-icon search-icon" src="/assets/search.png">
+        </button>
+      </div>
+    </div>
+    <div class="header-right">
+      <button class="buttons" title="cart" id="cart" onclick="openNav()"><img class="sub-icon icon-right"
+          src="/assets/cart.png"></button>
+      <a href="/pages/profile.html"<button class="buttons" title="Profile" id="profile"><img
+        class="sub-icon icon-right" src="/assets/avatar.png"></button></a>
+    </div>
+  </header>
+
+  <!--Navigation Bar-->
+  <div class="navbar">
+    <a href="/index.html" id="selected"> Latest Offers </a>
+
+    <div class="dropdown">
+      <button class="dropbutton"> Tees </button>
+      <div id="dropdown1" class="dropdown-content">
+        <a href="/pages/tees/pocket-tees.html"> Pocket Tees </a>
+        <a href="/pages/tees/crew-neck.html"> Crew Neck </a>
+        <a href="/pages/tees/v-neck.html"> V-Neck </a>
+        <a href="/pages/tees/dri-fit.html"> Dri-Fit </a>
+        <a href="/pages/tees/oversized.html"> Oversized </a>
+        <a href="/pages/tees/polo-shirt.html"> Polo Shirt </a>
+        <a href="/pages/tees/long-sleeves.html"> Long Sleeves </a>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropbutton"> Mugs </button>
+      <div id="dropdown2" class="dropdown-content">
+        <a href="/pages/mugs/coffee-mug.html"> Coffee Mug </a>
+        <a href="/pages/mugs/tea-mug.html"> Tea Mug </a>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropbutton"> Accessories </button>
+      <div id="dropdown3" class="dropdown-content">
+        <a href="/pages/accessories/keychain.html"> Keychain </a>
+        <a href="/pages/accessories/towel.html"> Towel </a>
+      </div>
+    </div>
+
+    <a href="/pages/about.html"> About </a>
+    <a href="/pages/contacts.html"> Contacts </a>
+  </div>
+
+  <!--Breadcrumbs-->
+  <div class="breadcrumbs">
+    <a href="/index.html">Home</a> &raquo;
+    <a href="/pages/tees.html">Tees</a> &raquo;
+    <a href="/pages/tees/dri-fit.html">Dri-Fit</a>
+  </div>
+
+  <!--Cart-->
+  <div id="cart-sidebar" class="sidebar">
+    <div class="cart-heading">
+      <h2>Cart</h2>
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><p>&times;</p></a>
+    </div>
+    <div class="cart-body">
+      <div id="product-cart" class="cart-content"></div>
+    </div>
+    <button class="checkout" onclick="checkout()">Checkout</button>
+  </div>
+
+  <!-- The Modal -->
+  <div id="product-modal" class="modal"></div>
+  
+  <div class="body-container">
+  <!--Category Bar-->
+  <div class="category-bar">
+    <h2>Filters</h2>
+    <button class="accordion">Color</button>
+    <div id="colorFilters" class="panel">
+      <button class="colorFilterButton active" onclick="filterSelection('black')"><img class="box" src="/assets/checked.png"> Black</button>
+      <button class="colorFilterButton active" onclick="filterSelection('white')"><img class="box" src="/assets/checked.png"> White</button>
+      <button class="colorFilterButton active" onclick="filterSelection('gray')"><img class="box" src="/assets/checked.png"> Gray</button>
+      <button class="colorFilterButton active" onclick="filterSelection('red')"><img class="box" src="/assets/checked.png"> Red</button>
+      <button class="colorFilterButton active" onclick="filterSelection('green')"><img class="box" src="/assets/checked.png"> Green</button>
+      <button class="colorFilterButton active" onclick="filterSelection('blue')"><img class="box" src="/assets/checked.png"> Blue</button>
+    </div>
+
+    <h2>Categories</h2>
+    <button class="accordion">Tees</button>
+    <div class="panel">
+      <a href="/pages/tees/pocket-tees.html">Pocket Tees</a>
+      <a href="/pages/tees/crew-neck.html">Crew Neck</a>
+      <a href="/pages/tees/v-neck.html">V-Neck</a>
+      <a href="/pages/tees/dri-fit.html">Dri-Fit</a>
+      <a href="/pages/tees/oversized.html">Oversized</a>
+      <a href="/pages/tees/polo-shirt.html">Polo Shirt</a>
+      <a href="/pages/tees/long-sleeves.html">Long Sleeves</a>
+    </div>
+
+    <button class="accordion">Mugs</button>
+    <div class="panel">
+      <a href="/pages/mugs/coffee-mug.html">Coffee Mug</a>
+      <a href="/pages/mugs/tea-mug.html">Tea Mug</a>
+    </div>
+
+    <button class="accordion">Accessories</button>
+    <div class="panel">
+      <a href="/pages/accessories/keychain.html">Keychain</a>
+      <a href="/pages/accessories/towel.html">Towel</a>
+    </div>
+  </div>
+  
+  <!--Body-->
+  <div class="body">
+    <!-- Main Content Section -->
+    <h2>Dri-Fit</h2>
+    <p>Dri-fit Tees are T-shirts that can quickly move sweat out of the body.</p>
+    <p>You can choose from our selection of Dri-fit Tees!.</p>
+
+    <!-- Card Container -->
+    <div class="card-container clearfix">
+      <!-- Card 1 -->
+      <div class="card-item black" onclick="displayProduct(18)">
+        <div class="card">
+          <img src="/assets/tees/dri-fit/black-fit.png">
+          <h3>Black Dri</h3>
+          <p>A black dri-fit tee that gives a mature vibe.</p>
+          <p>&#9733; 4.9</p>
+          <p class="price">PHP 180.00</p>
+          <button class="view-product">View Product</button>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="card-item white" onclick="displayProduct(19)">
+        <div class="card">
+          <img src="/assets/tees/dri-fit/white-fit.png">
+          <h3>White Dri</h3>
+          <p>A white dri-fit tee that gives an elegant vibe.</p>
+          <p>&#9733; 4.9</p>
+          <p class="price">PHP 180.00</p>
+          <button class="view-product">View Product</button>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="card-item gray" onclick="displayProduct(20)">
+        <div class="card">
+          <img src="/assets/tees/dri-fit/gray-fit.png">
+          <h3>Gray Dri</h3>
+          <p>A gray dri-fit tee that gives a neutral vibe.</p>
+          <p>&#9733; 4.7</p>
+          <p class="price">PHP 240.00</p>
+          <button class="view-product">View Product</button>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="card-item red" onclick="displayProduct(21)">
+        <div class="card">
+          <img src="/assets/tees/dri-fit/red-fit.png">
+          <h3>Red Dri</h3>
+          <p>A red dri-fit tee that gives a passionate vibe.</p>
+          <p>&#9733; 4.6</p>
+          <p class="price">PHP 240.00</p>
+          <button class="view-product">View Product</button>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="card-item green" onclick="displayProduct(22)">
+        <div class="card">
+          <img src="/assets/tees/dri-fit/green-fit.png">
+          <h3>Green Dri</h3>
+          <p>A green dri-fit tee that gives a healing vibe.</p>
+          <p>&#9733; 4.3</p>
+          <p class="price">PHP 240.00</p>
+          <button class="view-product">View Product</button>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="card-item blue" onclick="displayProduct(23)">
+        <div class="card">
+          <img src="/assets/tees/dri-fit/blue-fit.png">
+          <h3>Blue Dri</h3>
+          <p>A blue dri-fit tee that gives a relaxing vibe.</p>
+          <p>&#9733; 4.1</p>
+          <p class="price">PHP 240.00</p>
+          <button class="view-product">View Product</button>
+        </div>
+      </div>
+    
+    </div>
+  
+  </div>
+    </div>
+    
+
+  <!--Footer-->
+  <footer>
+    <div class="footer">
+      <div class="header-left">
+      <a class="brand" href="/index.html"><h1> Giftees</h1><a href="/index.html"> <h1>!</h1> </a></a>
+      </div>
+      <p>Contact us!</p>
+      <div class="footer-icon">
+        <a href="https://www.facebook.com" target="_blank"><img src="/assets/socmed/facebook.png"></a>
+        <a href="https://www.x.com" target="_blank"><img src="/assets/socmed/twitter.png"></a>
+        <a href="https://www.instagram.com" target="_blank"><img src="/assets/socmed/instagram.png"></a>
+        <a href="https://www.pinterest.com" target="_blank"><img src="/assets/socmed/pinterest.png"></a>
+      </div>
+      <p>&copy; 2024 Giftees. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="/product-script.js"></script>
+  
+</body>
+
+</html>

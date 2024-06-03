@@ -1,0 +1,232 @@
+h3{
+color: black;
+}
+
+.contacts-h3{
+  color: white;
+  padding-top: 60px;
+}
+
+.title-section {
+  font-size:35px;
+}
+
+/* About Giftees */
+.section1 {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Meet the Teams */ 
+.section2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  text-align: center;
+  width: 99.1vw; 
+  position: static;
+}
+
+#card1, #card2, #card3{
+  margin-bottom: 70px;  
+}
+
+.logo-pic{
+  height: 190px;
+  width: 190px;
+  margin-right: 20px;
+}
+
+.about-container{
+  display: flex;
+  width: 79vw;
+  height: 25vh;
+  align-items: center;
+  justify-content: center;  
+  margin: 50px auto auto auto;
+  background-color: black;
+  border-radius: 20px;
+  padding: 20px;
+
+}
+
+.about-container p {
+  text-align: justify;
+  font-size: 20px;
+  color: white;
+}
+
+.title-section1{
+  text-align:center;
+  color:black;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+
+.title-section2{
+  text-align:left;
+  color:white;
+  margin-top: 10px;
+  font-size: 40px;
+}
+
+.section-container{
+  width: 50vw;
+  height: 50vh;
+  display: flex;
+  margin: 20px auto;
+  position: relative;
+  bottom: 100px;
+  filter: drop-shadow(0 0 15px rgb(255, 255, 255, 0.9));
+  transition: invert 0.5s ease;
+}
+
+.section-container:hover{
+  filter:invert(100%);
+}
+
+/* Styles for the box-section class */
+.box-section {
+  padding: 20px auto;
+  margin: auto;
+  width: 90vw;
+  height: 30vh;
+  background-color: black;
+  text-align: center;
+}
+
+.box-section p {
+  margin: 0;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: white;
+
+}
+
+/* Style for contacts banner */
+.banner{
+  margin: 50px auto;
+  width: 79vw;
+  height: 40vh;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: contain;
+  border-radius: 20px;
+  /*-webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));*/
+}
+
+.banner img:hover{
+  filter: contrast(250%), 
+  drop-shadow(0 0 10px rgba(255, 255, 255, 0.7));
+}
+
+/* About Body */
+/* Style for card container */
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* 3 columns */
+  grid-auto-rows: auto;
+  grid-gap: 35px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Clear floated content within the card container*/
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.card-item{
+  border:1px solid black;
+  border-radius: 7px;
+  transition: 0.3s;
+  display: block; 
+  filter: drop-shadow(0 0 10px rgb(0, 0, 0, 0.3));
+}
+
+.card-item:hover {
+  transform: scale(1.05);
+}
+
+/* Individual card */
+.card {
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center; 
+  justify-content: center;
+  align-items: center;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  max-height: 200px;
+  object-fit: contain;
+  border-radius: 10%;
+  transition: 2s ease;
+}
+
+.card img:hover{
+  transform:scale(1.1);
+  filter: contrast(250%);
+}
+
+.filterContainer {
+  display: flex;
+  align-items: center;
+}
+
+/* Icon in Contacts */
+.icon img{
+  width: 42px;
+  height: 42px;
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  vertical-align: middle;
+  transition: filter 0.3s ease;
+}
+
+.icon img:hover {
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.7));
+    /* Cool white shadow boom boom */
+}
+
+/* Profile */
+.section-profile{
+  display: block;
+  padding: 20px;
+  margin: 20px auto;
+  height: 400px;
+  width: 500px;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  max-width: 1000px;
+  box-sizing: border-box;
+}
+
+#title-profile1{
+  margin-top: 30px;
+  text-align: center;
+  color:black;
+}
+
+#title-profile2{
+  text-align: center;
+  color:white;
+}
